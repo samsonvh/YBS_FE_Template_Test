@@ -7,6 +7,9 @@ export const metadata = {
 };
 
 export default function Home() {
+  const server = process.env.SERVER;
+  console.log(server);
+
   return (
     <>
       <Wrapper>
